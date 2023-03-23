@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@200;300;500;600&display=swap');
 
 .top-nav{
     margin-left: auto;
     gap: 1rem;
 }
-.collapse ul{
-    margin-right: 3rem;
-}
+
+
 
 .nav-link{
     font-family: 'Poppins', sans-serif;
@@ -23,12 +22,9 @@
     margin-right: 0.5rem;
 }
 .login{
-    margin-right: 2rem;
+    margin-left: 1rem;
     background-color: #2B4F6D;
     color: #fff;
-    width: 7.758rem;
-   /* height: 3.327rem;
-    font-size: 20px;*/
 }
 .log-in{
     font-weight: 500;
@@ -41,6 +37,7 @@
 .btn{
     width: 100%;
     border-radius: 8px;
+    margin-right: 2rem;
 }
 
 @media screen and (max-width: 1120px) {
@@ -50,6 +47,49 @@
         height: auto;
         
     }
+}
+.info{
+    display: flex;
+    margin-left: 12px;
+    width: 98.7%;
+    padding: 1rem;
+    background: linear-gradient(180deg, rgba(78, 135, 140, 0.4) 463.73%, rgba(21, 50, 67, 0) 668.75%);
+}
+.announcement{
+    margin-top: 10px;
+}
+.announce-one, .announce{
+    color: #4E878C;
+    
+    font-weight: 500;
+    margin-top: 14px;
+    padding-top: 27rem 0;
+    margin: 2rem;
+}
+.announce{
+    
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+}
+.announce-one{
+    
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+.prospectus{
+    
+    margin-left: auto;
+    margin-right: 4rem;
+}
+.pros{
+    
+    color: #fff;
+    padding: 12px 36px;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #4E878C;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
 }
 
 
