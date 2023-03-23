@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
 
-.logo{
-    width: 25.038rem;
-}
 .top-nav{
     margin-left: auto;
     gap: 1rem;
@@ -37,7 +34,7 @@
     font-weight: 500;
 }
 .main-image{
-    width: 117.5rem auto;
+    width: 100%;
     height: auto;
    
 }
@@ -54,4 +51,6 @@
         
     }
 }
+
+
 
