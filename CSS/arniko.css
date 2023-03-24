@@ -55,18 +55,15 @@
 }
 .info{
     display: flex;
+    justify-content: space-around;
     margin-right: 10px;
     margin-left: 10px;
     padding: 1rem;
     background: linear-gradient(180deg, rgba(78, 135, 140, 0.4) 463.73%, rgba(21, 50, 67, 0) 668.75%);
 }
-.announcement{
-    display: flex;
-    justify-content: space-evenly;
-}
+ 
 .announce-text, .announce-notice{
     color: #4E878C;
-    
     font-weight: 500;
     margin: 1rem;
 }
@@ -76,14 +73,12 @@
     
 }
 .announce-text{
-    
     font-size: 20px;
-    
 }
 .prospectus{
     
     margin-left: auto;
-    margin-right: 4rem;
+    margin-right: 1rem;
 }
 .pros{
     
@@ -108,8 +103,9 @@
     line-height: 47px;
 }
 .brief-des{
-    margin-top: 48px;
+    margin-top: 4rem;
     border-radius: 8px;
+    margin-bottom: 4rem;
     box-shadow: 0px 0px 30px #E5E5E5;
 }
 .brief-des img{
@@ -140,7 +136,6 @@
     font-weight: 700;
     color: #333;
 }
-
 .card-img-top{
     text-align: left;
     background-color: #4E878C;
@@ -223,20 +218,123 @@ margin-bottom: 0;
     background-color: #4E878C;
     color: #fff;
 }
-.container h2{
+.what-we-see-one{
     margin-top: 1rem;
     font-family: 'DM Sans';
     font-weight: 400;
 }
-.container p{
+.what-we-see{
     margin-top: 1rem;
     font-size: 1rem;
     font-family: 'DM Sans';
     font-weight: 400;
     
 }
+.cources{
+    margin-top: 35px;
+}
+.join{
+    background-color: #4E878C;
+}
+.lets-start{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    margin: 3rem 30px;
+    padding: 10px;
+    color: #fff;
+}
+.join-us{
+    text-align: center;
+}
+.bba, .bca{
+    border: none;
+    margin: 10px;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 14px 72px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.bba{
+    background-color: #153243;
+    color: #fff;
+}
+.bca{
+    background-color: #fff;
+    color: #153243;
+}
+.our-cource{
+    background-color: #153243;
+}
+.BBA, .BCA{
+    
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: left;;
+    display: flex;
+    
 
 }
+.bca-title, .bba-title{
+    font-size: 32px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    
+}
+.bca-description, .bba-description{
+    font-size: 16px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    
+}
+.verify{
+    margin-top: 15px;
+    font-size: 4rem;
+}
+.cource-section{
+    margin-left: 2rem;
+}
+.prof-name{
+    border: none;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 24px;
+}
+.prof-des{
+    border: none;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 20px;
+}
+.card{
+    border: none;
+}
+.instructor{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+color: #4E878C;
+
+}
+.team{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+}
+
+
+
+
 
 
 
