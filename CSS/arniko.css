@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@200;300;500;600&display=swap');
-
 .top-nav{
     margin-left: auto;
     gap: 1rem;
@@ -8,7 +7,7 @@
 
 
 .nav-link{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 1rem;
     
 }
@@ -28,6 +27,12 @@
 }
 .log-in{
     font-weight: 500;
+}
+.login:hover{
+    background-color: #2B4F6D;
+}
+.login:active{
+    background-color: #2B4F6D;
 }
 .main-image{
     width: 100%;
@@ -50,28 +55,27 @@
 }
 .info{
     display: flex;
-    margin-left: 12px;
-    width: 98.7%;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 1rem;
     background: linear-gradient(180deg, rgba(78, 135, 140, 0.4) 463.73%, rgba(21, 50, 67, 0) 668.75%);
 }
 .announcement{
-    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
-.announce-one, .announce{
+.announce-text, .announce-notice{
     color: #4E878C;
     
     font-weight: 500;
-    margin-top: 14px;
-    padding-top: 27rem 0;
-    margin: 2rem;
+    margin: 1rem;
 }
-.announce{
+.announce-notice{
     
     font-size: 16px;
     
 }
-.announce-one{
+.announce-text{
     
     font-size: 20px;
     
@@ -85,12 +89,155 @@
     
     color: #fff;
     padding: 12px 36px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans',;
     background-color: #4E878C;
     border-radius: 4px;
     border: none;
     font-weight: 700;
 }
+.brief-intro{
+    margin-top: 30px;
+}
+.brief-intro-title{
+    text-align: center;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 36px;
+    line-height: 47px;
+}
+.brief-des{
+    margin-top: 48px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px #E5E5E5;
+}
+.brief-des img{
+    margin-top: 30px;
+    
+}
+.brief-des p{
+    margin-top: 26px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+
+}
+
+.about{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E878C;
+    padding-top: 2rem;
+}
+.more-about-araniko{
+    font-family: 'DM Sans';
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.card-img-top{
+    text-align: left;
+    background-color: #4E878C;
+}
+.add-color{
+    background-color: #4E878C;
+    color: white;
+}
+.our-intro{
+    font-family: 'DM Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: left;
+    margin-left: 5px;
+}
+.card-img{
+    position: relative;
+    
+    
+
+}
+
+.text-card{
+    
+position: absolute;
+bottom: 0;
+background-color: rgba(21, 50, 67, 0.6);
+width: 100%;
+text-align: left;
+color: white;
+padding: 10px;
+margin-bottom: 0;
+
+
+
+
+}
+.card{
+    border: none;
+}
+.card-head{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.card-body{
+    text-align: left;
+    font-family: 'DM Sans';
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #555555;
+    
+
+}
+.read-more{
+    font-size: 20px;
+    font-weight: 500;
+    color: #4E878C;
+    margin-left: 15px;
+    
+}
+.read-more{
+    border: 0px;
+}
+.fas{
+    margin-left: 10px
+}
+.container{
+    margin-top: 1.5rem;
+}
+.vision, .mission{
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px #E5E5E5;
+    padding: 3rem;
+}
+.mission{
+    background-color: #4E878C;
+    color: #fff;
+}
+.container h2{
+    margin-top: 1rem;
+    font-family: 'DM Sans';
+    font-weight: 400;
+}
+.container p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    
+}
+
+}
+
 
 
 
