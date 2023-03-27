@@ -297,6 +297,7 @@ margin-bottom: 0;
 .verify{
     margin-top: 15px;
     font-size: 4rem;
+    color: #4E878C;
 }
 .cource-section{
     margin-left: 2rem;
@@ -392,11 +393,30 @@ line-height: 47px;
 .our-classroom{
     width: 100%;
     background-color: rgba(21, 50, 67, 0.6);
-    padding: 5rem;
+   
+
     
 }
+.Image{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.2em;
+}
 .our-sports{
-    padding: 5rem;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 0;
 }
 .sports-img{
     margin-top: 30px;
@@ -457,16 +477,120 @@ hr{
     font-size: 20px;
     font-family: 'DM Sans';
 }
-
+.our-gallery{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #4E878C;
+}
+.photo-story{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #1C4761;
+}
 .icons{
     width: 40px;
     border-radius: 8px;
 }
-.social-sites{
-    text-decoration: ;
+@media screen and (max-width: 414px) {
+    .logo{
+        width: 15rem;
+    }
+    .announce-notice{
+       font-size: 10px;
+       margin: 0px 0px 0px 5px;
+       padding: 0px;
+    }
+    .info{
+        padding: 0px;
+    }
+    .announcement{
+        display: flex;
+        margin: 0;
+    }
+    .announce-text{
+        font-size: 14px;
+        margin: 0;
+    }
+    .pros{
+        width: 75pxpx;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .events{
+        position: absolute;
+        margin: 10px;
+        bottom: 0;
+    }
+    .bba-description, .bca-description{
+        margin: 10px;
+    }
+    .bba, .bca{
+        margin-bottom: 20px;
+    }
+    .our-team{
+        margin-left: 3rem;
+    }
+    .sports-img{
+        width: 19rem;
+    }
+    .gallery{
+        margin-left: 30px;
+    }
+    .overlay{
+        margin-right: 20px;
+    }
+    .lets-start{
+        margin: 10px 30px;
+    }
+    
+}
+@media screen and (max-width: 321px) {
+    .logo{
+        width: 14rem;
+    }
+    .change{
+        width: 115%;
+    }
+    .brief-intro-title{
+        margin-left: 10px;
+    }
+    .brief-des{
+        margin-left: 20px;
+    }
+    .araniko-family{
+        margin-left: 20px;
+    }
+    .vision-mission{
+        margin-left: 20px;
+    }
+    .cources{
+        margin-left: 20px;
+    }
+    .verify{
+        font-size: 30px;
+        margin-top: 3rem;
+    }
+    .bba-title, .bca-title{
+        font-size: 25px;
+    }
+    .bba-description, .bca-description{
+        font-size: 15px;
+
+    }
+    .true-stories{
+        margin-left: 25px;
+    }
+    .gallery{
+        margin-left: 0px;
+    }
 
 }
-
-
-
 
