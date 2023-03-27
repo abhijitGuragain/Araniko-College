@@ -270,6 +270,7 @@ margin-bottom: 0;
 }
 .our-cource{
     background-color: #153243;
+    padding: 30px;
 }
 .BBA, .BCA{
     
@@ -331,10 +332,119 @@ font-weight: 700;
 font-size: 36px;
 line-height: 47px;
 }
+.our-words{
+    padding: 2rem;
+    border:  1px solid #4E878C;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px rgba(147, 229, 171, 0.1);
+}
+.our-stories{
+    padding: 2rem;
+}
+.stories-title{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'DM Sans';
+    color: #4E878C;
+    margin-top: 2rem;
+}
+.stories-description{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.quotation{
+    font-size: 3rem;
+    font-family: 'DM Sans';
+    font-weight: 700px;
+}
+.story-of-college{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.prachan{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+}
+.prachan-description{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #555555;
+}
+.int-yoga{
+    background: rgba(21, 50, 67, 0.6);
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+}
+.yoga{
+    margin-top: 9rem;
+    
+}
+.classroom{
+    bottom: 0px;
+    width: 295px;
+}
+.events-activities{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #333333;
+}
+.extra-curriculum{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #4E878C;
+}
 
-
-
-
+.sports{
+    display: relative;
+    bottom: 0px;
+}
+.contact-us{
+    background-color: #4E878C;
+}
+.card-head{
+    background-color: #4E878C;
+    border: 0px;
+    color: #fff;
+    margin: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+.card-item{
+    background-color: #4E878C;
+    border: 0px;
+    color: #fff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+hr{
+    color: #1C4761;
+}
+.footer{
+    text-align: center;
+    padding: 1rem;
+    font-family: 'DM Sans';
+    color: #fff;
+}
 
 
 
