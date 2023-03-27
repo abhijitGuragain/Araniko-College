@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@200;300;500;600&display=swap');
-
 .top-nav{
     margin-left: auto;
     gap: 1rem;
@@ -8,7 +7,7 @@
 
 
 .nav-link{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 1rem;
     
 }
@@ -28,6 +27,12 @@
 }
 .log-in{
     font-weight: 500;
+}
+.login:hover{
+    background-color: #2B4F6D;
+}
+.login:active{
+    background-color: #2B4F6D;
 }
 .main-image{
     width: 100%;
@@ -50,47 +55,542 @@
 }
 .info{
     display: flex;
-    margin-left: 12px;
-    width: 98.7%;
+    justify-content: space-around;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 1rem;
     background: linear-gradient(180deg, rgba(78, 135, 140, 0.4) 463.73%, rgba(21, 50, 67, 0) 668.75%);
 }
-.announcement{
-    margin-top: 10px;
-}
-.announce-one, .announce{
+ 
+.announce-text, .announce-notice{
     color: #4E878C;
-    
     font-weight: 500;
-    margin-top: 14px;
-    padding-top: 27rem 0;
-    margin: 2rem;
+    margin: 1rem;
 }
-.announce{
+.announce-notice{
     
     font-size: 16px;
-    font-family: 'DM Sans', sans-serif;
-}
-.announce-one{
     
+}
+.announce-text{
     font-size: 20px;
-    font-family: 'DM Sans', sans-serif;
 }
 .prospectus{
     
     margin-left: auto;
-    margin-right: 4rem;
+    margin-right: 1rem;
 }
 .pros{
     
     color: #fff;
     padding: 12px 36px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans',;
     background-color: #4E878C;
     border-radius: 4px;
     border: none;
     font-weight: 700;
 }
+.brief-intro{
+    margin-top: 30px;
+}
+.brief-intro-title{
+    text-align: center;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 36px;
+    line-height: 47px;
+}
+.brief-des{
+    margin-top: 4rem;
+    border-radius: 8px;
+    margin-bottom: 4rem;
+    box-shadow: 0px 0px 30px #E5E5E5;
+}
+.brief-des img{
+    margin-top: 30px;
+    
+}
+.brief-des p{
+    margin-top: 26px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+
+}
+
+.about{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E878C;
+    padding-top: 2rem;
+}
+.more-about-araniko{
+    font-family: 'DM Sans';
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+.card-img-top{
+    text-align: left;
+    background-color: #4E878C;
+}
+.add-color{
+    background-color: #4E878C;
+    color: white;
+}
+.our-intro{
+    font-family: 'DM Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: left;
+    margin-left: 5px;
+}
+.card-img{
+    position: relative;
+    
+    
+
+}
+
+.text-card{
+    
+position: absolute;
+bottom: 0;
+background-color: rgba(21, 50, 67, 0.6);
+width: 100%;
+text-align: left;
+color: white;
+padding: 10px;
+margin-bottom: 0;
 
 
+
+
+}
+.card{
+    border: none;
+}
+.card-head{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.card-body{
+    text-align: left;
+    font-family: 'DM Sans';
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #555555;
+    
+
+}
+.read-more{
+    font-size: 20px;
+    font-weight: 500;
+    color: #4E878C;
+    margin-left: 15px;
+    
+}
+.read-more{
+    border: 0px;
+}
+.fas{
+    margin-left: 10px
+}
+.container{
+    margin-top: 1.5rem;
+}
+.vision, .mission{
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px #E5E5E5;
+    padding: 3rem;
+}
+.mission{
+    background-color: #4E878C;
+    color: #fff;
+}
+.what-we-see-one{
+    margin-top: 1rem;
+    font-family: 'DM Sans';
+    font-weight: 400;
+}
+.what-we-see{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    
+}
+.cources{
+    margin-top: 35px;
+}
+.join{
+    background-color: #4E878C;
+}
+.lets-start{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    margin: 3rem 30px;
+    padding: 10px;
+    color: #fff;
+}
+.join-us{
+    text-align: center;
+}
+.bba, .bca{
+    border: none;
+    margin: 10px;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 14px 72px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.bba{
+    background-color: #153243;
+    color: #fff;
+}
+.bca{
+    background-color: #fff;
+    color: #153243;
+}
+.our-cource{
+    background-color: #153243;
+    padding: 30px;
+}
+.BBA, .BCA{
+    
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: left;;
+    display: flex;
+    
+
+}
+.bca-title, .bba-title{
+    font-size: 32px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    
+}
+.bca-description, .bba-description{
+    font-size: 16px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    
+}
+.verify{
+    margin-top: 15px;
+    font-size: 4rem;
+    color: #4E878C;
+}
+.cource-section{
+    margin-left: 2rem;
+}
+.prof-name{
+    border: none;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 24px;
+}
+.prof-des{
+    border: none;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 20px;
+}
+.card{
+    border: none;
+}
+.instructor{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+color: #4E878C;
+
+}
+.team{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+}
+.our-words{
+    padding: 2rem;
+    border:  1px solid #4E878C;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px rgba(147, 229, 171, 0.1);
+}
+.our-stories{
+    padding: 2rem;
+}
+.stories-title{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'DM Sans';
+    color: #4E878C;
+    margin-top: 2rem;
+}
+.stories-description{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.quotation{
+    font-size: 4rem;
+    font-family: 'DM Sans';
+    font-weight: 700px;
+}
+.story-of-college{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.prachan{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+}
+.prachan-description{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #555555;
+}
+.yoga{
+    margin-top: 9rem;
+    
+}
+.sports{
+    background-color: rgba(21, 50, 67, 0.6);
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.our-classroom{
+    width: 100%;
+    background-color: rgba(21, 50, 67, 0.6);
+   
+
+    
+}
+.Image{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.2em;
+}
+.our-sports{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 0;
+}
+.sports-img{
+    margin-top: 30px;
+}
+
+.events-activities{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #333333;
+}
+.extra-curriculum{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #4E878C;
+}
+
+
+.contact-us{
+    background-color: #4E878C;
+    margin-top: 2rem;
+}
+.footer{
+    text-align: center;
+    padding: 1rem;
+    font-family: 'DM Sans';
+    color: #fff;
+}
+.college-events{
+    background-color: rgba(21, 50, 67, 0.6);
+}
+.events{
+    margin: 10rem;
+}
+.more-about-us{
+    background-color: #4E878C;
+    margin: 20px;
+    border: 0px;
+}
+hr{
+    border-bottom: 2px solid #1C4761;
+}
+.our-contacts{
+    background-color: #4E878C;
+    border: 0px;
+    font-size: 25px;
+    font-family: 'DM Sans';
+    color: #fff;
+}
+.card-item{
+    background-color: #4E878C;
+    border: 0px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'DM Sans';
+}
+.our-gallery{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #4E878C;
+}
+.photo-story{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #1C4761;
+}
+.icons{
+    width: 40px;
+    border-radius: 8px;
+}
+@media screen and (max-width: 414px) {
+    .logo{
+        width: 15rem;
+    }
+    .announce-notice{
+       font-size: 10px;
+       margin: 0px 0px 0px 5px;
+       padding: 0px;
+    }
+    .info{
+        padding: 0px;
+    }
+    .announcement{
+        display: flex;
+        margin: 0;
+    }
+    .announce-text{
+        font-size: 14px;
+        margin: 0;
+    }
+    .pros{
+        width: 75pxpx;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .events{
+        position: absolute;
+        margin: 10px;
+        bottom: 0;
+    }
+    .bba-description, .bca-description{
+        margin: 10px;
+    }
+    .bba, .bca{
+        margin-bottom: 20px;
+    }
+    .our-team{
+        margin-left: 3rem;
+    }
+    .sports-img{
+        width: 19rem;
+    }
+    .gallery{
+        margin-left: 30px;
+    }
+    .overlay{
+        margin-right: 20px;
+    }
+    .lets-start{
+        margin: 10px 30px;
+    }
+    
+}
+@media screen and (max-width: 321px) {
+    .logo{
+        width: 14rem;
+    }
+    .change{
+        width: 115%;
+    }
+    .brief-intro-title{
+        margin-left: 10px;
+    }
+    .brief-des{
+        margin-left: 20px;
+    }
+    .araniko-family{
+        margin-left: 20px;
+    }
+    .vision-mission{
+        margin-left: 20px;
+    }
+    .cources{
+        margin-left: 20px;
+    }
+    .verify{
+        font-size: 30px;
+        margin-top: 3rem;
+    }
+    .bba-title, .bca-title{
+        font-size: 25px;
+    }
+    .bba-description, .bca-description{
+        font-size: 15px;
+
+    }
+    .true-stories{
+        margin-left: 25px;
+    }
+    .gallery{
+        margin-left: 0px;
+    }
+
+}
 
