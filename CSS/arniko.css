@@ -355,7 +355,7 @@ line-height: 47px;
     font-size: 16px;
 }
 .quotation{
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'DM Sans';
     font-weight: 700px;
 }
@@ -379,20 +379,29 @@ line-height: 47px;
     font-size: 16px;
     color: #555555;
 }
-.int-yoga{
-    background: rgba(21, 50, 67, 0.6);
-    border-radius: 8px;
-    width: 100%;
-    text-align: center;
-}
 .yoga{
     margin-top: 9rem;
     
 }
-.classroom{
-    bottom: 0px;
-    width: 295px;
+.sports{
+    background-color: rgba(21, 50, 67, 0.6);
+    border-radius: 8px;
+    text-align: center;
+    
 }
+.our-classroom{
+    width: 100%;
+    background-color: rgba(21, 50, 67, 0.6);
+    padding: 5rem;
+    
+}
+.our-sports{
+    padding: 5rem;
+}
+.sports-img{
+    margin-top: 30px;
+}
+
 .events-activities{
     font-family: 'DM Sans';
     font-style: normal;
@@ -409,41 +418,53 @@ line-height: 47px;
     color: #4E878C;
 }
 
-.sports{
-    display: relative;
-    bottom: 0px;
-}
+
 .contact-us{
     background-color: #4E878C;
-}
-.card-head{
-    background-color: #4E878C;
-    border: 0px;
-    color: #fff;
-    margin: 0px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-}
-.card-item{
-    background-color: #4E878C;
-    border: 0px;
-    color: #fff;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    
-}
-hr{
-    color: #1C4761;
+    margin-top: 2rem;
 }
 .footer{
     text-align: center;
     padding: 1rem;
     font-family: 'DM Sans';
     color: #fff;
+}
+.college-events{
+    background-color: rgba(21, 50, 67, 0.6);
+}
+.events{
+    margin: 10rem;
+}
+.more-about-us{
+    background-color: #4E878C;
+    margin: 20px;
+    border: 0px;
+}
+hr{
+    border-bottom: 2px solid #1C4761;
+}
+.our-contacts{
+    background-color: #4E878C;
+    border: 0px;
+    font-size: 25px;
+    font-family: 'DM Sans';
+    color: #fff;
+}
+.card-item{
+    background-color: #4E878C;
+    border: 0px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'DM Sans';
+}
+
+.icons{
+    width: 40px;
+    border-radius: 8px;
+}
+.social-sites{
+    text-decoration: ;
+
 }
 
 
